@@ -1,6 +1,19 @@
 package com.dsa.linearsearch;
 
 public class SearchInNumbers {
+	
+	/*When Should You Use Linear Search?
+
+			✅ Use it when:
+			The data is small.
+			The array is unsorted.
+			Simplicity is more important than speed.
+
+			❌ Don't use it when:
+			The array is large.
+			The array is sorted.
+
+			In those cases, Binary Search is much faster (O(log n)).*/
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
