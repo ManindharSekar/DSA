@@ -2,7 +2,7 @@ package com.dsa.binarysearch;
 
 public class CeilingOfNum {
 	
-	// ceiling = The smallest element in the array that is greater than or equal to the target.
+	// ceiling = return the index of smallest >= target
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
