@@ -1,8 +1,8 @@
 package com.dsa.binarysearch;
 
 public class SearchRotatedSortedArr {
-	
-	//  Search in Rotated Sorted Array
+
+	// Search in Rotated Sorted Array
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
