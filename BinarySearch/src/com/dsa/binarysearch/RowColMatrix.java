@@ -7,7 +7,11 @@ public class RowColMatrix {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		int matrix[][] = { { 10, 20, 30, 40 }, { 15, 25, 35, 45 }, { 28, 29, 37, 49 }, { 33, 34, 38, 50 } };
+		int matrix[][] = { 
+				{ 10, 20, 30, 40 }, 
+				{ 15, 25, 35, 45 }, 
+				{ 28, 29, 37, 49 }, 
+				{ 33, 34, 38, 50 } };
 		System.out.println(Arrays.toString(search(matrix, 37)));
 
 	}
