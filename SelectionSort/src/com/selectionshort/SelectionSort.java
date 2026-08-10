@@ -2,7 +2,7 @@ package com.selectionshort;
 
 import java.util.Arrays;
 
-public class SelectionShort {
+public class SelectionSort {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

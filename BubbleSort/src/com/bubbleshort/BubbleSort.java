@@ -2,7 +2,7 @@ package com.bubbleshort;
 
 import java.util.Arrays;
 
-public class BubbleShort {
+public class BubbleSort {
 
 	// Bubble Sort is a sorting algorithm that repeatedly compares two adjacent
 	// elements and swaps them if they are in the wrong order.
