@@ -3,18 +3,17 @@ package com.cyclesort;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MissingAllNumsInArray {
+public class FindAllDuplicateInArray {
 
-	// 448. Find All Numbers Disappeared in an Array
-
+	// 442. Find All Duplicates in an Array
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int[] nums = { 4, 3, 2, 7, 8, 2, 3, 1 };
+		System.out.println(findAllDuplicatesInArray(nums));
 
-		System.out.println(missingAllNum(nums));
 	}
 
-	static List<Integer> missingAllNum(int[] nums) {
+	static List<Integer> findAllDuplicatesInArray(int[] nums) {
 		int i = 0;
 		while (i < nums.length) {
 			int correct = nums[i] - 1;
@@ -24,10 +23,10 @@ public class MissingAllNumsInArray {
 				i++;
 			}
 		}
-		List<Integer> ans = new ArrayList<>();
+		List<Integer> ans = new ArrayList<Integer>();
 		for (int index = 0; index < nums.length; index++) {
 			if (nums[index] != index + 1) {
-				ans.add(index + 1);
+				ans.add(nums[index]);
 			}
 		}
 		return ans;
