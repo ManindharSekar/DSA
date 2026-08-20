@@ -4,7 +4,7 @@ public class Palindrome {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String str="";
+		String str="abcba";
 		System.out.println(isPalindrome(str));
 
 	}
